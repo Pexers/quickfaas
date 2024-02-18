@@ -3,31 +3,12 @@
 
 [1] System Requirements -------------
 
-
-
 QuickFaaS was developed using Kotlin and Jetpack Compose as a self-contained desktop application, meaning that no JDK needs to be installed on the target system in order to run it.
 
 The 'function-deployment' folder already includes a Maven version to build and deploy Java projects to FaaS platforms.
 Node.js is not yet supported.
 
 Keep in mind that this version of QuickFaaS is only a prototype.
-
-In order to deploy cloud-agnostic functions through QuickFaaS to Google Cloud Platform, you will first need:
-1.  Google account.
-2.  Project in Google Cloud Platform responsible for managing all types of services.
-3.  Billing Account, that can be linked to multiple projects.
-4.  Bucket, responsible for storing function sources.
-5.  The Cloud Functions API enabled.
-6.  The Cloud Resource Manager API enabled - allows to programmatically manage metadata for GCP resources
-
-### Microsoft Azure
-In order to deploy cloud-agnostic functions through QuickFaaS to Microsoft Azure, you will first need:
-1. Microsoft account.
-2. Azure account.
-3. At least one active Subscription associated with the Azure account.
-4. Resource Group to hold various types of resources.
-5. Storage Account, responsible for storing function sources.
-
 
 [2] Prerequisites to enable FaaS deployments -------------
 
