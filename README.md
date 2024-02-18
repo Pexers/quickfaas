@@ -32,7 +32,7 @@ Function Definition|FaaS Deployment|
 ## System requirements
 QuickFaaS was developed using Kotlin and Desktop Compose as a self-contained desktop application, meaning that no JDK needs to be installed on the target system in order to run it.
 
-The `function-deployment` folders already includes a Maven version to build and deploy Java projects to FaaS platforms. Node.js is not yet supported.
+The `function-deployment` folders already include a Maven version to build and deploy Java projects to FaaS platforms. Node.js is not yet supported.
 
 ## Enabling FaaS deployments
 ### Google Cloud Platform
