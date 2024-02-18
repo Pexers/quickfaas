@@ -3,7 +3,7 @@
 
 [1] System Requirements -------------
 
-QuickFaaS was developed using Kotlin and Jetpack Compose as a self-contained desktop application, meaning that no JDK needs to be installed on the target system in order to run it.
+QuickFaaS was developed using Kotlin and Desktop Compose as a self-contained desktop application, meaning that no JDK needs to be installed on the target system in order to run it.
 
 The 'function-deployment' folder already includes a Maven version to build and deploy Java projects to FaaS platforms.
 Node.js is not yet supported.
